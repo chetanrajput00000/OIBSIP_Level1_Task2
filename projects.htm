@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Projects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="navbar.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-image: url(https://source.unsplash.com/1600x500/?water,clouds,nature,lightcollages);
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 44px;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .project-card {
+      border-radius: 15px;
+      box-shadow: 0 3px 15px rgba(0, 0, 0, .2);
+      height: 300px;
+      margin: 40px;
+      text-align: center;
+      width: 300px;
+      background-color: aliceblue;
+    }
+
+    .project-card:hover {
+      border-radius: 18px;
+      box-shadow: 0 3px 15px rgba(0, 0, 0, .2);
+      height: 305px;
+      margin: 43px;
+      text-align: center;
+      transition: all 1s;
+      width: 300px;
+      color: blue;
+      background-color: rgb(245, 222, 222);
+    }
+
+    .project-card h2 {
+      font-size: 22px;
+      margin-top: 40px;
+      text-decoration: underline;
+    }
+
+    .project-card p {
+      margin-bottom: 0;
+      margin-top: 24px;
+    }
+
+    .project-card a {
+      display: block;
+      margin-top: 35px;
+      text-decoration: none;
+    }
+
+
+    @media screen and (max-width: 600px) {
+      .project-card {
+        width: 100%;
+      }
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+
+      background-color: #007bb5;
+      transition: all 1s;
+      color: #000;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-github {
+      background: #3B5998;
+      ;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      padding: 10px 0 280px 0;
+      text-align: center;
+      margin: 10px -25px -20px -25px;
+    }
+
+    .social-icons {
+      margin-top: 10px;
+      height: 115px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+
+    .social-icons a:last-child {
+      margin-right: 0;
+    }
+
+    .social-icons a:hover {
+      color: #000;
+    }
+
+    .fab {
+      font-size: 24px;
+    }
+
+  
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 570px;
+      margin: 0 auto;
+    }
+
+    .button {
+      padding: 15px 25px;
+      background-color: #e7e7e7;
+      color: #000;
+      transition: background-color 0.3s;
+      border-radius: 46%;
+      margin: auto;
+    }
+
+    .button:hover {
+      background-color: #333;
+      transition: all 1s;
+      color: white;
+      border: 1px solid white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="img/portfolio.png">
+      </div>
+      <ul>
+        <li><a href="index.html">Back</a></li>
+        <li><a href="projects.htm">Project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>My Projects</h1>
+
+  <div class="projects">
+
+    <div class="project-card">
+      <h2>Flipkart Clone</h2>
+      <p>Description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, dolorem.
+      <p>
+      <div class="buttons">
+        <div class="button-container">
+          <a class="button" href="https://chetanrajput00000.github.io/flipkart-clone-project/">Live Link</a>
+          <a class="button" href="https://github.com/chetanrajput00000/flipkart-clone-project">Github</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <h2>iCoder Website</h2>
+      <p>Description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, dolorem.
+      <p>
+      <div class="buttons">
+        <div class="button-container">
+          <a class="button" href=" https://chetanrajput00000.github.io/icoder-website/">Live Link</a>
+          <a class="button" href="https://github.com/chetanrajput00000/icoder-website">Github</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <h2>Snake Water Gun Game</h2>
+      <p>PYTHON PROJECT cannot be live
+      <p>
+      <div class="buttons">
+        <div class="button-container">
+          <a class="button" href="https://github.com/chetanrajput00000/snake-water-gun-game">Live Link</a>
+          <a class="button" href="https://github.com/chetanrajput00000/snake-water-gun-game">Github</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <h2>Developer Landing Page</h2>
+      <p>Description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, dolorem.
+      <p>
+      <div class="buttons">
+        <div class="button-container">
+          <a class="button" href="https://chetanrajput00000.github.io/developer-landing-pages/
+          ">Live Link</a>
+          <a class="button" href="https://github.com/chetanrajput00000/developer-landing-pages">Github</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <h2>Portfolio</h2>
+      <p>Description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, dolorem.
+      <p>
+      <div class="buttons">
+        <div class="button-container">
+          <a class="button" href="https://chetanrajput00000.github.io/Portfolio/
+          ">Live Link</a>
+          <a class="button" href="https://github.com/chetanrajput00000/Portfolio">Github</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <h2>Drum Kit Challenge</h2>
+      <p>Description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, dolorem.
+      <p>
+      <div class="buttons">
+        <div class="button-container">
+          <a class="button" href="https://chetanrajput00000.github.io/Drum-Kit-Challenge/">Live Link</a>
+          <a class="button" href="https://github.com/chetanrajput00000/Drum-Kit-Challenge">Github</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <h2>TO-DO-List</h2>
+      <p>Cannot be live that is a Backend-Project
+      <p>
+      <div class="buttons">
+        <div class="button-container">
+          <a class="button" href="https://github.com/chetanrajput00000/Todo-List">Live Link</a>
+          <a class="button" href="https://github.com/chetanrajput00000/Todo-List">Github</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <h2>Dice-Game</h2>
+      <p>Refresh leads to win one of the Dice or Draw, refresh website again and again..
+      <p>
+      <div class="buttons">
+        <div class="button-container">
+          <a class="button" href="https://chetanrajput00000.github.io/Dice-Game/">Live Link</a>
+          <a class="button" href="https://github.com/chetanrajput00000/Dice-Game">Github</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <h2>Random Password generator</h2>
+      <p>Description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, dolorem.
+      <p>
+      <div class="buttons">
+        <div class="button-container">
+          <a class="button" href=" https://chetanrajput00000.github.io/Random-Password-generator/">Live Link</a>
+          <a class="button" href="https://github.com/chetanrajput00000/Random-Password-generator">Github</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <h2>Temperature-Converter</h2>
+      <p>Description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, dolorem.
+      <p>
+      <div class="buttons">
+        <div class="button-container">
+          <a class="button" href="https://chetanrajput00000.github.io/temperature-converter/">Live Link</a>
+          <a class="button" href="https://github.com/chetanrajput00000/temperature-converter">Github</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <h2>Orbit</h2>
+      <p>Description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, dolorem.
+      <p>
+      <div class="buttons">
+        <div class="button-container">
+          <a class="button" href="https://chetanrajput00000.github.io/Orbit/">Live Link</a>
+          <a class="button" href="https://github.com/chetanrajput00000/Orbit">Github</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+      <a href="https://www.linkedin.com/in/chetan-singh-74704b207/" class="fa fa-linkedin"></a>
+      <a href="https://www.instagram.com/chetanrajput00000/" class="fa fa-instagram"></a>
+      <a href="https://github.com/chetanrajput00000" class="fa fa-github"></a>
+
+      <h2>&copy;chetan_portfolio.in</h2>
+    </div>
+  </footer>
+
+</body>
+
+</html>

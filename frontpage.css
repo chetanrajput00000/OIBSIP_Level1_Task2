@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkslategrey;
+}
+@media screen and (max-width:500px) {
+    body {
+        flex-direction: column;
+        width: 450px;
+        display: flex;
+    }
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: yellowgreen;
+}
+
+.profession {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: white;
+}
+
+
+
+
